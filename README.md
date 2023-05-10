@@ -2,15 +2,15 @@
 
 ## 小组成员
 
-- 2021xxxx-姓名 （组长）
-- 2021xxxx-姓名
-- 2021xxxx-姓名
-- 2021xxxx-姓名
-
-
+- 2021131029-毛思铖 （组长）
+- 2021121017-白杰明
+- 2021131019-梁家悦
+- 2021131030-关泓历
+- 2021131031-李金蒿
+- 2021131032-刘宇阳
+- 2021131036-刘严
 ## 代码仓库链接
-
-https://github.com/caosbad/blockchain-in-js-workshop-2021(示例用，请根据自身的仓库替换)
+https://github.com/bluetracker/blockchain-in-js-workshop-2021.git
 
 
 
