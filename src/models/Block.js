@@ -1,57 +1,36 @@
+import sha256 from 'crypto-js/sha256.js'
+
+// Block 类，表示一个区块
 class Block {
-  constructor(index, timestamp, transactions, previousHash = '') {
-    this.index = index;
-    this.timestamp = timestamp;
-    this.transactions = transactions;
-    this.previousHash = previousHash;
-    this.nonce = 0;
-    this.hash = this.calculateHash();
+  // 构造函数，接收区块链对象，上一个区块的哈希值，区块的高度，区块的数据
+  constructor(blockchain, prevHash, height, data) {
+    this.blockchain = blockchain // 区块链对象
+    this.prevHash = prevHash // 上一个区块的哈希值
+    this.height = height // 区块的高度
+    this.data = data // 区块的数据
+    this.timestamp = Date.now() // 区块的时间戳
+    this.nonce = 0 // 区块的随机数
+    this.hash = this._setHash() // 区块的哈希值
   }
 
-  calculateHash() {
-    return sha256(
-        this.index +
-        this.previousHash +
-        this.timestamp +
-        JSON.stringify(this.transactions) +
-        this.nonce
-    ).toString();
-  }
-
-  isValid() {
-    return (
-        this.hash.substring(0, DIFFICULTY) === '0'.repeat(DIFFICULTY) &&
-        this.transactions.every((transaction) => this.isValidTransaction(transaction))
-    );
-  }
-
-  setNonce(nonce) {
-    this.nonce = nonce;
-    this._setHash();
-  }
-
+  // 根据区块的属性和随机数计算哈希值
   _setHash() {
-    this.hash = this.calculateHash();
+    return sha256(
+        this.blockchain.name +
+        this.prevHash +
+        this.height +
+        this.data +
+        this.timestamp +
+        this.nonce
+    ).toString()
   }
 
-  combinedTransactionsHash() {
-    return sha256(JSON.stringify(this.transactions)).toString();
-  }
-
-  addTransaction(transaction) {
-    if (this.isValidTransaction(transaction)) {
-      this.transactions.push(transaction);
-      this._setHash();
-      return true;
+  // 根据区块链的难度系数调整随机数的值，直到找到一个满足要求的哈希值，并更新区块的哈希值和随机数属性
+  setNonce() {
+    while (!this.hash.startsWith('0'.repeat(this.blockchain.difficulty))) {
+      this.nonce++
+      this.hash = this._setHash()
     }
-    return false;
-  }
-
-  isValidTransaction(transaction) {
-    // 添加签名校验逻辑
-    // 这里需要根据您的具体实现来添加逻辑
-    return true;
   }
 }
-
 export default Block
