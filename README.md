@@ -86,17 +86,17 @@ return longest // 返回最长的区块信息列表
 }
 export default Blockchain
 ### 代码 commint 地址
-
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Block.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Blockchain.js
 
 
 ### 代码截图
-链接：https://pan.baidu.com/s/1oBK8O8K3yI_C0kTk6_Waag  (运行结果)
-提取码：1111
-链接：https://pan.baidu.com/s/1Glo5G2OBLf7hyCtvPY7fug  (block)
-提取码：1111
-链接：https://pan.baidu.com/s/1szMDpSp73-ApxQAOO5XEIQ  (blockchain)
-提取码：1111
+链接：https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/%E5%9B%BE%E7%89%871.png  (运行结果)
+
+链接：https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/block.png (block)
+
+链接：https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/blockchain.png (blockchain)
+
 > 将截图上传至网盘，放入链接即可
 
 ![](链接)
