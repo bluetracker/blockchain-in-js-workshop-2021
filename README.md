@@ -209,11 +209,12 @@ https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/m
 
 
 ### 代码 commint 地址
-
 https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Block.js  (block)
 
 
 ### 代码截图
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/block2%EF%BC%88lesson2%EF%BC%89.png
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/block%EF%BC%88lesson2%EF%BC%89.png
 https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/lesson2.png  (lesson2运行结果)
 > 将截图上传至网盘，放入链接即可
 
