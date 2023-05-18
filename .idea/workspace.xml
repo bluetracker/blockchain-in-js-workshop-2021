@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35417dc7-e91b-48d7-96b8-59edc0d31067" name="变更" comment="" />
+    <list default="true" id="35417dc7-e91b-48d7-96b8-59edc0d31067" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/lesson2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/lesson1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/lesson1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validators/utils.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +47,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.lesson2.js">
     <configuration name="lesson1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/tests/lesson1.js" working-dir="$PROJECT_DIR$/src/tests">
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/tests/lesson2.js" working-dir="$PROJECT_DIR$/src/tests">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.lesson2.js" />
         <item itemvalue="Node.js.lesson1.js" />
       </list>
     </recent_temporary>
