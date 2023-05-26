@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35417dc7-e91b-48d7-96b8-59edc0d31067" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/UTXO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/UTXOPool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/lesson3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Blockchain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Blockchain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +89,7 @@
       <workItem from="1684927704323" duration="4097000" />
       <workItem from="1684931964656" duration="1378000" />
       <workItem from="1685017792117" duration="23000" />
-      <workItem from="1685067583355" duration="296000" />
+      <workItem from="1685067583355" duration="605000" />
     </task>
     <servers />
   </component>

@@ -206,7 +206,7 @@ https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/m
 
 
 ## 第二课代码
-
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/.gitignore
 
 ### 代码 commint 地址
 https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Block.js  (block)
@@ -229,17 +229,17 @@ https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/l
 
 
 ## 第三课代码
-
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/.gitignore
 
 ### 代码 commint 地址
-
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
-
-
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/UTXO.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/UTXOPool.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Block.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Blockchain.js
 ### 代码截图
 
 > 将截图上传至网盘，放入链接即可
-
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/lesson3.png
 ![](链接)
 
 
