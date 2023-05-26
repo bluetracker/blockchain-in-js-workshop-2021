@@ -5,19 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35417dc7-e91b-48d7-96b8-59edc0d31067" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/src/models/UTXO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/UTXOPool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/lesson3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Blockchain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Blockchain.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2PPuUcMH0WyZ9qQSCxQhnplfQLU" />
   <component name="ProjectViewState">
@@ -42,15 +56,19 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.lesson2.js">
+  <component name="RunManager" selected="Node.js.lesson3.js">
     <configuration name="lesson1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/tests/lesson1.js" working-dir="$PROJECT_DIR$/src/tests">
       <method v="2" />
     </configuration>
     <configuration name="lesson2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/tests/lesson2.js" working-dir="$PROJECT_DIR$/src/tests">
       <method v="2" />
     </configuration>
+    <configuration name="lesson3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/tests/lesson3.js" working-dir="$PROJECT_DIR$/src/tests">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.lesson3.js" />
         <item itemvalue="Node.js.lesson2.js" />
         <item itemvalue="Node.js.lesson1.js" />
       </list>
@@ -72,6 +90,11 @@
       <workItem from="1683546342149" duration="1553000" />
       <workItem from="1683724523615" duration="3787000" />
       <workItem from="1683851510785" duration="3157000" />
+      <workItem from="1684421694410" duration="92000" />
+      <workItem from="1684927704323" duration="4097000" />
+      <workItem from="1684931964656" duration="1378000" />
+      <workItem from="1685017792117" duration="23000" />
+      <workItem from="1685067583355" duration="296000" />
     </task>
     <servers />
   </component>

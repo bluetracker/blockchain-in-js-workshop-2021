@@ -1,5 +1,6 @@
-// Blockchain
-// Blockchain 类，表示一个区块链
+
+import UTXO from "./UTXO.js";
+
 class Blockchain {
   // 构造函数，接收区块链的名字和难度系数
   constructor(name, difficulty) {
@@ -27,5 +28,48 @@ class Blockchain {
     }
     return longest // 返回最长的区块信息列表
   }
+  // 判断当前区块链是否包含
+  containsBlock(block) {
+    // 添加判断方法
+    for (let hash in this.blocks) {
+      if (block.hash===hash){
+        return true
+      }
+    }
+    return false
+  }
+
+  // 获得区块高度最高的区块
+  maxHeightBlock() {
+    let high=null
+    // 找出高度最高的区块
+    for (let hash in this.blocks) {
+      if(!high){
+        high=this.blocks[hash]
+      }
+      if(high.height<this.blocks[hash].height){
+        high=this.blocks[hash]
+      }
+    }
+    return high
+
+  }
+
+  // 添加区块
+
+  _addBlock(block) {
+    if (!block.isValid()) return
+    if (this.containsBlock(block)) return
+    // 添加 UTXO 快照与更新的相关逻辑
+    this.blocks[block.hash]=block
+    //获取父区块的UTXO结果
+    if (block.prevHash!==this.genesis.hash) {
+      block.utxoPool.utxos[block.coinbaseBeneficiary] = this.blocks[block.prevHash].utxoPool.clone()
+    }
+    //更新UTXO结果
+    let utxo = new UTXO(block.coinbaseBeneficiary, 12.5)
+    block.utxoPool.addUTXO(utxo)
+  }
 }
 export default Blockchain
+

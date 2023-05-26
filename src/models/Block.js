@@ -1,10 +1,13 @@
 import sha256 from 'crypto-js/sha256.js'
+import UTXO from "./UTXO.js";
+import UTXOPool from "./UTXOPool.js";
 
 export const DIFFICULTY = 2
 // Block 类，表示一个区块
 class Block {
   // 构造函数，接收区块链对象，上一个区块的哈希值，区块的高度，区块的数据
-  constructor(blockchain, prevHash, height, data) {
+  miner;
+  constructor(blockchain, prevHash, height, data,miner) {
     this.blockchain = blockchain // 区块链对象
     this.prevHash = prevHash // 上一个区块的哈希值
     this.height = height // 区块的高度
@@ -12,7 +15,8 @@ class Block {
     this.timestamp = Date.now() // 区块的时间戳
     this.nonce = 0 // 区块的随机数
     this.hash = this._setHash() // 区块的哈希值
-
+    this.utxoPool=new UTXOPool() // 创建一个新的UTXOPool对象，用于存储未花费的交易输出
+    this.coinbaseBeneficiary=miner //设置挖矿者的收益地址，用于接收区块奖励
   }
 
   // 根据区块的属性和随机数计算哈希值
@@ -23,6 +27,7 @@ class Block {
         this.height +
         this.data +
         this.timestamp +
+        this.miner +
         this.nonce
     ).toString()
   }
