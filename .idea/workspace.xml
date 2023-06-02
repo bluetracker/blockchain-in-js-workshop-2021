@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35417dc7-e91b-48d7-96b8-59edc0d31067" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/MerkleTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,10 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.lesson3.js">
+  <component name="RunManager" selected="Node.js.MerkleTree.js">
+    <configuration name="MerkleTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/models/MerkleTree.js" working-dir="$PROJECT_DIR$/src/models">
+      <method v="2" />
+    </configuration>
     <configuration name="lesson1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/tests/lesson1.js" working-dir="$PROJECT_DIR$/src/tests">
       <method v="2" />
     </configuration>
@@ -63,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.MerkleTree.js" />
         <item itemvalue="Node.js.lesson3.js" />
         <item itemvalue="Node.js.lesson2.js" />
         <item itemvalue="Node.js.lesson1.js" />
@@ -89,7 +94,9 @@
       <workItem from="1684927704323" duration="4097000" />
       <workItem from="1684931964656" duration="1378000" />
       <workItem from="1685017792117" duration="23000" />
-      <workItem from="1685067583355" duration="605000" />
+      <workItem from="1685067583355" duration="914000" />
+      <workItem from="1685068731499" duration="14000" />
+      <workItem from="1685667038955" duration="1557000" />
     </task>
     <servers />
   </component>
