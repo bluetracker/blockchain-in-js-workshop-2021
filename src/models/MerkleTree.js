@@ -3,7 +3,6 @@ import crypto from 'crypto';
 // 定义一个hash函数，用于计算sha256摘要
 const hash = data => crypto.createHash('sha256').update(data).digest('hex');
 
-// 定义一个MerkleTree类，用于构建和操作Merkle树
 class MerkleTree {
     // 构造函数，接受一个叶子节点数组作为参数
     constructor(leaves) {
@@ -29,11 +28,18 @@ class MerkleTree {
         }
         this.root = level[0]; // 将最后一层的唯一节点作为根节点
     }
-}
 
+    getRoot() {
+        if (this.tree.length === 0) {
+            return null;
+        }
+        return this.tree[0];
+    }
+}
 // 定义一个叶子节点数组，每个元素是一个字母的hash值
 let leaves = ['a', 'b', 'c', 'd'].map(x => hash(x));
 // 创建一个MerkleTree实例，传入叶子节点数组作为参数
 let tree = new MerkleTree(leaves);
 // 打印根节点的值
 console.log(tree.root);
+export default MerkleTree;
