@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35417dc7-e91b-48d7-96b8-59edc0d31067" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/crypto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/MPT.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/lesson5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/lesson6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-currency-report.md" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-currency-report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Transaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +61,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\33098\Documents\GitHub\blockchain-in-js-workshop-2021\src\models" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.MPT.cjs">
     <configuration name="MPT.cjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/models/MPT.cjs" working-dir="$PROJECT_DIR$/src/models">
       <method v="2" />
@@ -122,7 +117,7 @@
       <workItem from="1685667038955" duration="4745000" />
       <workItem from="1685707518184" duration="2533000" />
       <workItem from="1685880057597" duration="23000" />
-      <workItem from="1686309135589" duration="8580000" />
+      <workItem from="1686309135589" duration="9212000" />
     </task>
     <servers />
   </component>
