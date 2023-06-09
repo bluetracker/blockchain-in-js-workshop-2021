@@ -32,7 +32,7 @@ https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/D
 主观与讨论题内容
 第三课代码
 代码 commint 地址
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
+
 
 代码截图
 将截图上传至网盘，放入链接即可

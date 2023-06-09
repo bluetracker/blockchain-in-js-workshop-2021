@@ -6,6 +6,7 @@ import UTXOPool from "./UTXOPool.js";
 export const DIFFICULTY = 2;
 
 class Block {
+  transactions = [];
   // 构造函数
   constructor(blockchain, previousHash, height, data, miner) {
     this.previousHash = previousHash;// 上一个区块的哈希值
@@ -55,6 +56,43 @@ class Block {
         this.merkleTree.getRoot()
     ).toString();
   }
+  _setHash() {
+    this.hash = this.calculateHash(this.coinbaseBeneficiary);
+  }
+
+  // 汇总计算交易的 Hash 值
+  /**
+   * 默克尔树实现
+   */
+  combinedTransactionsHash() {
+    this.merkleTree.buildTree(this.transactions);
+    return this.merkleTree.getRoot();
+  }
+
+  // 添加交易到区块
+  /**
+   *
+   * 需包含 UTXOPool 的更新与 hash 的更新
+   */
+  addTransaction(transaction) {
+    //验证交易合法性
+    if (this.utxoPool.isValidTransaction(transaction) && this.isValidTransaction(transaction)) {
+      //添加交易
+      this.transactions.push(transaction);
+      //更新 UTXOPool
+      this.utxoPool.handleTransaction(transaction);
+    }
+    //更新 hash
+    this._setHash();
+  }
+
+
+  // 添加签名校验逻辑
+  isValidTransaction(transaction) {
+    let trxHash = transaction._calculateHash();
+    return verifySignature(trxHash, transaction.signature, transaction.from);
+  }
+
 }
 
 export default Block;
