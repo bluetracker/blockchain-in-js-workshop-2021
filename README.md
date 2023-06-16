@@ -309,7 +309,7 @@ https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/m
 
 
 ### 代码截图
-https://github.com/bluetracker/blockchain-in-js-workshop-2021/tree/lesson5/pic
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/lesson5.png
 > 将截图上传至网盘，放入链接即可
 
 ![](链接)
@@ -325,12 +325,6 @@ https://github.com/bluetracker/blockchain-in-js-workshop-2021/tree/lesson5/pic
 交易速度和费用会降低，这对用户来说是有利的，但对矿工来说可能会降低他们的收入。如果区块大小减小，那么每个区块可以容纳更少的交易，交易速度和费用会增加
 这对用户来说是不利的，但对矿工来说可能会增加他们的收入,比特币区块大小和挖矿难度之间需要平衡用户和矿工之间的利益，同时保证网络的安全性和可扩展性。²
 
-源: 与必应的对话， 2023/6/9
-(1) 一文读懂BTC挖矿难度调整 - 知乎. https://zhuanlan.zhihu.com/p/342992912.
-(2) 比特币挖矿难度与算力解释！ - 知乎专栏. https://zhuanlan.zhihu.com/p/344237325.
-(3) 比特币挖矿难度变化与其价格的关系研究 | CoinVoice. https://www.coinvoice.cn/articles/3245.
-(4) 影响比特币挖矿的因素有哪些？. http://www.lianmenhu.com/blockchain-9840-1.
-(5) 比特币挖矿难度是什么意思? 突破20T是否影响矿工收益?_技术_区块链_脚本之家. https://www.jb51.net/blockchain/765891.html.
 
 ---
 
@@ -342,11 +336,13 @@ https://github.com/bluetracker/blockchain-in-js-workshop-2021/tree/lesson5/pic
 
 ### 代码 commint 地址
 
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
-
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Block.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Transaction.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Blockchain.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/UTXOPool.js
 
 ### 代码截图
-
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/lesson6.png
 > 将截图上传至网盘，放入链接即可
 
 ![](图片链接放这里)
@@ -362,7 +358,25 @@ https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d8
 
 因此，比特币交易费用是一种必要的机制，既能平衡矿工和用户之间的利益，又能保障网络的运行质量。
 ---
+## 第七课代码
 
+
+### 代码 commint 地址
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Block.js
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/src/models/Transaction.js
+
+
+
+### 代码截图
+https://github.com/bluetracker/blockchain-in-js-workshop-2021/blob/lesson1/pic/lesson7.jpg
+
+
+> 将截图上传至网盘，放入链接即可
+
+![](图片链接放这里)
+
+
+### 主观与讨论题内容
 
 ## 结课报告
 

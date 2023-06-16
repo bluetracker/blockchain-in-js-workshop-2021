@@ -98,5 +98,3 @@ const main = () => {
         'Error: miner should got BTC',
     )
 }
-
-main()

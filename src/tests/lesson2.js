@@ -18,10 +18,10 @@ const main = () => {
 
   // 构建区块
   let newBlock = new Block(
-    blockchain,
-    genesisBlock.hash,
-    1,
-    sha256(new Date().getTime().toString()).toString(),
+      blockchain,
+      genesisBlock.hash,
+      1,
+      sha256(new Date().getTime().toString()).toString(),
   )
 
   // 验证区块难度合法性
@@ -34,17 +34,17 @@ const main = () => {
   blockchain.blocks[newBlock.hash] = newBlock
 
   let nextBlock = new Block(
-    blockchain,
-    newBlock.hash,
-    2,
-    sha256(new Date().getTime().toString()).toString(),
+      blockchain,
+      newBlock.hash,
+      2,
+      sha256(new Date().getTime().toString()).toString(),
   )
 
   let nextCompetitionBlock = new Block(
-    blockchain,
-    newBlock.hash,
-    2,
-    sha256((new Date().getTime() + 1).toString()).toString(),
+      blockchain,
+      newBlock.hash,
+      2,
+      sha256((new Date().getTime() + 1).toString()).toString(),
   )
 
   nextBlock = calcNonce(nextBlock)
@@ -58,13 +58,13 @@ const main = () => {
   console.assert(longestChain.length == 2, 'Error: Block height should be 2')
 
   let thirdBlock = new Block(
-    blockchain,
-    nextCompetitionBlock.hash,
-    3,
-    sha256(new Date().getTime().toString()).toString(),
+      blockchain,
+      nextCompetitionBlock.hash,
+      3,
+      sha256(new Date().getTime().toString()).toString(),
   )
 
-  
+
   thirdBlock = calcNonce(thirdBlock)
 
   blockchain.blocks[thirdBlock.hash] = thirdBlock
@@ -74,8 +74,8 @@ const main = () => {
   // 区块检查
   console.assert(longestChain.length == 3, 'Block height should be 2')
   console.assert(
-    longestChain[2].hash == thirdBlock.hash,
-    `Height block hash should be ${thirdBlock.hash}`,
+      longestChain[2].hash == thirdBlock.hash,
+      `Height block hash should be ${thirdBlock.hash}`,
   )
 }
 
